@@ -1,6 +1,9 @@
 - name: ping
-  hosts: backend
+  hosts: all
   tasks: #task==moudle==collection
   - name: ping the server
     ansible.builtin.ping:
     #for ping there is no arguments
+
+
+  
